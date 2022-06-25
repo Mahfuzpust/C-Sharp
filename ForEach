@@ -1,0 +1,7 @@
+string[] cars = {"Volvo", "BMW", "FORD", "Mazda"};
+           Console.WriteLine(cars.Length);
+           Array.Sort(cars);
+           foreach(string i in cars)
+           {
+            Console.WriteLine(i);
+           }
